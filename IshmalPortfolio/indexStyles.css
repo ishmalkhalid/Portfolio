@@ -331,7 +331,7 @@ padding-bottom: 20px;
 
 }
 
-@media (max-width: 853px){
+@media (max-width: 995px){
     .projtitle {
         padding: 50px 0 40px 30px;
     /*    padding-left: 10px;*/
