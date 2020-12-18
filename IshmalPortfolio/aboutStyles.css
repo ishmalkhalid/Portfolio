@@ -17,6 +17,11 @@ html{
   src: url(MonExt-Reg.otf);
 }
 
+@font-face{
+    font-family: secFont;
+    src: url(tec.otf);
+}
+
 #myVideo {
   position: fixed;
   right: 0;
@@ -233,7 +238,7 @@ body {
 .totop {
     width: 15%;
     position: absolute;
-    top: 200px;
+    top: 2400px;
     left: 200px;
 }
 
