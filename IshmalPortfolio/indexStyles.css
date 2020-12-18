@@ -354,8 +354,9 @@ padding-bottom: 20px;
     }
 
     .projtxt{
-        padding: 50px 0 0 100px;
+        padding: 30px 0 0 100px;
         width: 370px;
+        font-size: 10px;
     }
 
 }
@@ -493,6 +494,19 @@ padding-bottom: 20px;
     .socials {
     position: relative;
     right: 200px;
+
+}
+    .address {
+    position: relative;
+    right: 60px;
+}
+
+}
+
+@media (max-width:820px){
+    .socials {
+    position: relative;
+    right: 00px;
 
 }
     .address {
