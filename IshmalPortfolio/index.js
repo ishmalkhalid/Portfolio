@@ -1,3 +1,4 @@
+//DECLARING VARIABLES
 let nextbutton = document.getElementById('nextbutton');
 
 var i = 1;
@@ -8,7 +9,7 @@ let nextform = document.getElementById('form2');
 let currentstep = document.getElementById('step1');
 let nextstep = document.getElementById('step2');
 
-
+//IF 4 STEPS HAVE OCCURRED IN THE CONTACT FORM
 let ChangeStep = () => {
   console.log("Heree");
   if(i>4){
@@ -16,8 +17,9 @@ let ChangeStep = () => {
     return;
   }
 
+//DEPENDING ON THE NUMBER OF TIMES NEXT HAS BEEN CLICKED GET THE RESPECTIVE FORM
   if (i == 2){
-    console.log("hELlooo");
+//    console.log("hELlooo");
 
     currentform = document.getElementById('form2');
     nextform = document.getElementById('form3');
@@ -48,15 +50,17 @@ let ChangeStep = () => {
   console.log(i);
 }
 
+//GIVE A POP UP WHEN FORM HAS BEEN SUBMITTED
 function myFunction() {
   form4.innerText = "Thank you for reaching out!";
-  alert('Ishmal will reach out to you soon');
+  alert('Ishmal will reach out to you soon!');
   setTimeout(myFunction2, 1000)
 }
 function myFunction2() {
   document.getElementById("myNav").style.width = "0%";
 }
 
+//CHANGE STEP UPON CLICK
 nextbutton.addEventListener('click',ChangeStep)
 
 function openNav() {
