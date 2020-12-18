@@ -434,6 +434,7 @@ padding-bottom: 20px;
     animation: fadeOut 3s;
     animation-fill-mode: forwards;
     font-style: italic;
+    text-decoration: underline;
 
 }
 
@@ -464,10 +465,43 @@ padding-bottom: 20px;
 
 }
 
+.soc:hover {
+    text-decoration: underline;
+    color: #e6e6e6;
+
+}
+
 .address {
     position: relative;
     right: 160px;
 }
+
+@media (max-width:1495px){
+    .socials {
+    position: relative;
+    right: 300px;
+
+}
+    .address {
+    position: relative;
+    right: 160px;
+}
+
+}
+
+@media (max-width:1350px){
+    .socials {
+    position: relative;
+    right: 200px;
+
+}
+    .address {
+    position: relative;
+    right: 60px;
+}
+
+}
+
 
 .sayhi {
 
