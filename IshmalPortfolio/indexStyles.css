@@ -13,6 +13,7 @@ html{
     font-family: myFirstFont;
 }
 
+/*USING EXTERNAL FONTS*/
 @font-face {
     font-family: myFirstFont;
     src: url(MonExt-Reg.otf);
@@ -23,7 +24,7 @@ html{
     src: url(tec.otf);
 }
 
-
+/*VIDEO BACKGROUND*/
 #myVideo {
   position: fixed;
   right: 0;
@@ -38,6 +39,7 @@ html{
     color: black;
 }
 
+/*TYPING ANIMATION*/
 .demo,
 .demo-item {
   height: 80px;
@@ -112,6 +114,7 @@ html{
   }
 }
 
+/*BOUNCING ARROW*/
 .bouncingarrow{
   padding-top: 100px;
 }
@@ -194,13 +197,14 @@ html{
 }
 */
 
-
+/*NAV BAR*/
 .navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
+/*LOGO*/
 .logo {
     width: 25%;
     padding: 30px 0 0 45px;
@@ -216,6 +220,7 @@ html{
     background-color: white;
 }
 
+/*LANDING PAGE TITLES*/
 .title {
     font-size: 115px;
     text-align: center;
@@ -234,6 +239,7 @@ html{
     text-align: center;
 }
 
+/*PROJECTS*/
 .card {
     display: flex;
 /*    overflow: scroll;*/
@@ -272,6 +278,7 @@ padding-bottom: 20px;
     padding-bottom: 30px;
 }
 
+/*MAKING POSTERS RESPONSIVE*/
 @media (max-width: 1300px){
     .projtitle {
         padding: 120px 0 40px 30px;
@@ -361,6 +368,7 @@ padding-bottom: 20px;
 
 }
 
+/*BUTTONS IN PROJECTS SECTION*/
 .button {
     display: inline-block;
     text-align: center;
@@ -405,6 +413,7 @@ padding-bottom: 20px;
     background-size: 100% 100%;
 }
 
+/*FOOTER*/
 .contacttitle {
     font-size: 56px;
 /*    position: relative;*/
@@ -413,6 +422,7 @@ padding-bottom: 20px;
     cursor: pointer;
 }
 
+/*CONNECT WITH ME ANIMATION*/
 @-webkit-keyframes fadeOut {
     0% { opacity: 0;}
     69% { opacity: 0.69; }
@@ -439,6 +449,7 @@ padding-bottom: 20px;
 
 }
 
+/*FOOTER ELEMENTS*/
 .fline {
     width:56%; 
     position:relative; 
@@ -477,6 +488,7 @@ padding-bottom: 20px;
     right: 160px;
 }
 
+/*SETTING RESPONSIVENESS OF FOOTER*/
 @media (max-width:1495px){
     .socials {
     position: relative;
@@ -521,6 +533,7 @@ padding-bottom: 20px;
 
 }
 
+/*BACK TO TOP ICON*/
 .totop {
     width: 55%;
     position: relative;
@@ -559,6 +572,7 @@ padding-bottom: 20px;
 }
 */
 
+/*FORM*/
 .formheading{
   font-size: 25px;
 }
@@ -609,6 +623,7 @@ input[type=text] {
 }
 */
 
+/*FORM BUTTON*/
 .next_button {
     display: inline-block;
     text-align: center;
