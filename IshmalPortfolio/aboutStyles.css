@@ -178,6 +178,42 @@ body {
     left: 100px;
 }
 
+/*FOOTER*/
+.contacttitle {
+    font-size: 56px;
+/*    position: relative;*/
+/*    left: 550px;*/
+    padding: 30px 20px 30px 577px;
+    cursor: pointer;
+}
+
+/*CONNECT WITH ME ANIMATION*/
+@-webkit-keyframes fadeOut {
+    0% { opacity: 0;}
+    69% { opacity: 0.69; }
+    100% { opacity: 1;}
+}
+
+@keyframes fadeOut {
+    0% { opacity: 0;}
+    69% { opacity: 0.69;}
+    100% { opacity: 1;}
+}
+
+.contacttitle:hover {
+    font-family: secFont;
+    font-size: 86px;
+    color: #e6e6e6;
+    padding: 0px 20px 30px 577px;
+    display: block;
+    -webkit-animation: fadeOut 3s;
+    animation: fadeOut 3s;
+    animation-fill-mode: forwards;
+    font-style: italic;
+    text-decoration: underline;
+
+}
+
 /*FOOTER ELEMENTS*/
 .fline {
     width:56%; 
