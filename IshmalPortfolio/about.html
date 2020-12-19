@@ -21,7 +21,9 @@
         <nav>
             <div id = "top" class="navbar">
                 <span>
+                  <a href ="#">
                     <img  class="logo" src="logo.png" alt="">
+                  </a>
                 </span>
                 <span class="index">
                     <h5><a class="projects" href="index.html">Projects</a></h5>
@@ -139,7 +141,7 @@
         </div>
 <!--        <hr class="line four">-->
     </section>
-<!--    FOOTER-->
+<!--FOOTER-->
     <section class="footer">
         <div id = "connectwme" onclick="openNav()" class="contacttitle">CONNECT WITH ME<i style="padding-left: 50px" class="fas fa-arrow-right"></i></div>
 
@@ -170,11 +172,64 @@
         <hr class="fline">
         <div class="copyrights">Ishmal Khalid &copy 2020</div>
     </section>
-<!--        SCRIPTS-->
+
+<!--    CONNECT WITH ME FORM-->
+    <div id="myNav" class="overlay" style = "background-color:black;">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+
+        <div class = "formheading">
+          Get In Touch!
+          <hr />
+        </div>
+
+        <div id = "form1" class = "formcontent">
+          <span>Hi, my name is</span>
+          <input type="text" id="fname" name="firstname" placeholder="your name">
+          <span>and my email is</span>
+          <input id = "email" type="text" id="fname" name="firstname" placeholder="your email.">
+        </div>
+
+        <div id = "form2" class = "formcontent" style = "display:none;">
+          <span>I'm interested in</span>
+          <input id = "interested" type="text" id="fname" name="firstname" placeholder="travelling.">
+        </div>
+
+        <div id = "form3" class = "formcontent" style = "display:none;">
+          <span>Your message</span>
+          <input id = "interested" type="text" id="fname" name="firstname" placeholder="hi, Ishmal.">
+        </div>
+
+        <div id = "form4" class = "formcontent" style = "display:none;">
+          <span>Submitting....</span>
+        </div>
+
+        <div class = "next-bt">
+          <button id = "nextbutton" class="next_button">Next</button>
+        </div>
+
+        <div id = "step1" class = "step">
+          Step 1/4
+        </div>
+        <div id = "step2" class = "step" style = "display:none;">
+          Step 2/4
+        </div>
+        <div id = "step3" class = "step" style = "display:none;">
+          Step 3/4
+        </div>
+        <div id = "step4" class = "step" style = "display:none;">
+          Step 4/4
+        </div>
+
+      </div>
+    </div>
+<!-- SCRIPTS-->
+    <script type = "text/javascript" src ="index.js"></script>
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
     <script>
         AOS.init();
     </script>
-        
-    </body>
+</body>
 </html>
