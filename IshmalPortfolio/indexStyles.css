@@ -13,6 +13,12 @@ html{
     font-family: myFirstFont;
 }
 
+/*
+body {
+    min-width: 816px;
+}
+*/
+
 /*USING EXTERNAL FONTS*/
 @font-face {
     font-family: myFirstFont;
